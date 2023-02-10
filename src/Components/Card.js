@@ -3,7 +3,25 @@ import "./Card.css";
 function Card(props) {
   return (
     <div className="card">
-      <img className="imagec" src="./cloud.png" alt="Cloud-Img" />
+      <img
+        style={{
+          backgroundColor: [
+            "#2196F3",
+            "#00BCD4",
+            "#4CAF50",
+            "#8BC34A",
+            "#FFEB3B",
+            "#FF9800",
+            "#FF9800",
+            "#F44336",
+            "#673AB7",
+            "#3F51B5",
+            "#607D8B",
+          ][Math.floor(Math.random() * 11)],
+        }}
+        src="./cloud.png"
+        alt="Cloud-Img"
+      />
       <div className="card-img-overlay">
         <div className="row">
           <div className="col-6 b-r align-self-center">
