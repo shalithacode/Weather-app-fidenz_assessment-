@@ -1,9 +1,9 @@
 import "./Card.css";
-// import cloud from "./cloud.jpg";
+// import cloud from "./cloud.png";
 function Card(props) {
   return (
     <div className="card">
-      <img className="image" src="./cloud.jpg" alt="Cloud-Img" />
+      <img className="imagec" src="./cloud.png" alt="Cloud-Img" />
       <div className="card-img-overlay">
         <div className="row">
           <div className="col-6 b-r align-self-center">
