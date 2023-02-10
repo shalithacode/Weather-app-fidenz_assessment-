@@ -55,9 +55,9 @@ function App() {
     <>
       <h1>Weather Info</h1>
       <Grid container rowSpacing={1}>
-        {getWeatherData().map((citiData) => {
+        {getWeatherData().map((citiData, i) => {
           return (
-            <Grid item xs={12} md={6}>
+            <Grid key={i} item xs={12} md={6}>
               <Card citiData={citiData} />
             </Grid>
           );
