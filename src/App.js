@@ -31,6 +31,24 @@ function App() {
       .catch((error) => console.error(error));
   }, []);
 
+  const cache = new Map();
+
+  function getWeatherData() {
+    const now = new Date().getTime();
+
+    if (cache.has("WeatherData")) {
+      const cachedData = cache.get("WeatherData");
+      if (now - cachedData.time < 1000 * 60 * 5) {
+        return cachedData.data;
+      } else {
+        cache.delete("WeatherData");
+      }
+    }
+
+    cache.set("WeatherData", { data: data, time: now });
+    return data;
+  }
+
   return <></>;
 }
 
