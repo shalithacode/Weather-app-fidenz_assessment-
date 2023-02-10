@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
 
 body {
-  /* background-color: #000000; */
-  /* background-image: url(back.jpeg); */
-  /* background-size: contain; */
   padding: 0 50px;
   background: linear-gradient(
     112.1deg,
@@ -25,18 +22,9 @@ body {
   }
 }
 
-h4 {
-  text-align: center;
-  padding-top: 10px;
-}
-
-.font {
+p {
   color: #ffffff;
   font-size: 12px;
-}
-.padding {
-  padding: 10rem !important;
-  margin-left: 200px;
 }
 
 .card {
@@ -50,23 +38,10 @@ h4 {
   -webkit-transform: scale(1.05); /* Safari 3-8 */
   transform: scale(1.05);
 }
-.row1 {
-  background-color: #3a3d3a;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 1.25rem;
-}
-.card-no-border .card {
-  border-color: transparent;
-  border-radius: 20px;
-}
+
 .card-img-overlay {
   margin-top: 1rem;
-  /* position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; */
+
   height: 110px;
   padding: 1.25rem;
   border-radius: 25px;
@@ -74,41 +49,15 @@ h4 {
 .dl {
   display: inline-block;
 }
-.text-white {
-  color: #ffffff !important;
-}
-.font-light {
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 90%;
-}
-.card-text:last-child {
-  margin-bottom: 0;
-}
-.card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 1.25rem;
-  background-color: #2a2b2c;
-}
-.b-r {
+
+.divider {
   border-right: 1px solid rgba(120, 130, 140, 0.13);
 }
-.text-info {
-  color: #1e88e5 !important;
+
+.card-body {
+  background-color: #2a2b2c;
 }
-.display-6 {
-  font-size: 36px;
-}
-.mdi {
-  display: inline-block;
-  font-family: "weathericons";
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 .m-l-20 {
   margin-left: 5px;
 }

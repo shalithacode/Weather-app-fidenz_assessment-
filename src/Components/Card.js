@@ -1,5 +1,4 @@
 import "./Card.css";
-// import cloud from "./cloud.png";
 function Card(props) {
   return (
     <div className="card">
@@ -47,20 +46,16 @@ function Card(props) {
       </div>
       <div className="card-body weather-small">
         <div className="row">
-          <div className="col-6 b-r align-self-center">
+          <div className="col-6 b-r divider align-self-center">
             <div className="d-flex">
               <div className="m-l-20">
-                <div className="font">
-                  <p className="id">ID : {props.citiData.id}</p>
-                </div>
+                <p className="id">ID : {props.citiData.id}</p>
               </div>
             </div>
           </div>
           <div className="col-6 b-r text-center">
             <div className="m-l-20">
-              <div className="font">
-                <p className="dt">DT : {props.citiData.dt}</p>
-              </div>
+              <p className="dt">DT : {props.citiData.dt}</p>
             </div>
           </div>
         </div>
