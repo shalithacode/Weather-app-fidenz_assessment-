@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+
+body {
+  /* background-color: #000000; */
+  /* background-image: url(back.jpeg); */
+  /* background-size: contain; */
+  padding: 0 50px;
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+  font-family: "Poppins", sans-serif;
+
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h4 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.font {
+  color: #ffffff;
+  font-size: 12px;
+}
+.padding {
+  padding: 10rem !important;
+  margin-left: 200px;
+}
+
+.image {
+  background-color: #1e88e5;
+}
+
+.card {
+  width: 26rem;
+  box-shadow: rgba(50, 53, 56, 0.8) 0px 8px 24px;
+  margin: 20px auto;
+  transition: transform 0.35s;
+}
+.card:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+.row1 {
+  background-color: #3a3d3a;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.card-no-border .card {
+  border-color: transparent;
+  border-radius: 20px;
+}
+.card-img-overlay {
+  margin-top: 1rem;
+  /* position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+  height: 110px;
+  padding: 1.25rem;
+  border-radius: 25px;
+}
+.dl {
+  display: inline-block;
+}
+.text-white {
+  color: #ffffff !important;
+}
+.font-light {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 90%;
+}
+.card-text:last-child {
+  margin-bottom: 0;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  background-color: #2a2b2c;
+}
+.b-r {
+  border-right: 1px solid rgba(120, 130, 140, 0.13);
+}
+.text-info {
+  color: #1e88e5 !important;
+}
+.display-6 {
+  font-size: 36px;
+}
+.mdi {
+  display: inline-block;
+  font-family: "weathericons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.m-l-20 {
+  margin-left: 5px;
+}
+.m-b-0 {
+  margin-bottom: 0px;
+}
+.desc {
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-title {
+  padding-bottom: 0;
+}
+.city {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.temp {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 32px;
+  font-weight: 200;
+}
