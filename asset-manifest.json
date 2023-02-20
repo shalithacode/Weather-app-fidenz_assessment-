@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5e1228d.css",
-    "main.js": "/static/js/main.3196c7a9.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/index.html",
-    "main.c5e1228d.css.map": "/static/css/main.c5e1228d.css.map",
-    "main.3196c7a9.js.map": "/static/js/main.3196c7a9.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Weather-app-fidenz_assessment-/static/css/main.c5e1228d.css",
+    "main.js": "/Weather-app-fidenz_assessment-/static/js/main.9ec551cc.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Weather-app-fidenz_assessment-/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Weather-app-fidenz_assessment-/index.html",
+    "main.c5e1228d.css.map": "/Weather-app-fidenz_assessment-/static/css/main.c5e1228d.css.map",
+    "main.9ec551cc.js.map": "/Weather-app-fidenz_assessment-/static/js/main.9ec551cc.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Weather-app-fidenz_assessment-/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5e1228d.css",
-    "static/js/main.3196c7a9.js"
+    "static/js/main.9ec551cc.js"
   ]
 }
