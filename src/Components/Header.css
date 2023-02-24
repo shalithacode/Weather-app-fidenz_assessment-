@@ -1,0 +1,15 @@
+.weather-headline {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-text {
+  margin: 0 0 0 10px; /* adjust the margin as needed */
+  font-size: 26px;
+
+  color: white;
+}
+.weather-icon {
+  width: 50px; /* adjust the width as needed */
+}

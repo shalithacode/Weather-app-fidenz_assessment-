@@ -1,27 +1,23 @@
 body {
   /* padding: 0 50px; */
-  background: linear-gradient(
+  /* background: linear-gradient(
     112.1deg,
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
-  );
+  ); */
   font-family: "Poppins", sans-serif;
+  background-image: url("../public/Background.png");
+  background-size: contain;
+  background-color: #1e2027;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   overflow-x: Hidden;
 }
-
-h1 {
-  font-size: 36px;
-  margin: 24px auto;
-  text-align: center;
-  color: white;
-}
-
-@media only screen and (min-width: 600px) {
-  body {
-    padding: 0 50px;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

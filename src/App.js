@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import { Grid } from "@mui/material";
 import Card from "./Components/Card";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
 function App() {
   const [data, setData] = useState([]);
 
@@ -53,7 +55,7 @@ function App() {
 
   return (
     <>
-      <h1>Weather Info</h1>
+      <Header></Header>
       <Grid container rowSpacing={1}>
         {getWeatherData().map((citiData, i) => {
           return (
@@ -63,6 +65,7 @@ function App() {
           );
         })}
       </Grid>
+      <Footer />
     </>
   );
 }
