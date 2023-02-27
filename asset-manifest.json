@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Weather-app-fidenz_assessment-/static/css/main.c5e1228d.css",
-    "main.js": "/Weather-app-fidenz_assessment-/static/js/main.9ec551cc.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Weather-app-fidenz_assessment-/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/Weather-app-fidenz_assessment-/index.html",
-    "main.c5e1228d.css.map": "/Weather-app-fidenz_assessment-/static/css/main.c5e1228d.css.map",
-    "main.9ec551cc.js.map": "/Weather-app-fidenz_assessment-/static/js/main.9ec551cc.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Weather-app-fidenz_assessment-/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.bb848b00.css",
+    "main.js": "/static/js/main.3e7fc69a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Background.png": "/static/media/Background.38fef3de38f4008d1f04.png",
+    "index.html": "/index.html",
+    "main.bb848b00.css.map": "/static/css/main.bb848b00.css.map",
+    "main.3e7fc69a.js.map": "/static/js/main.3e7fc69a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5e1228d.css",
-    "static/js/main.9ec551cc.js"
+    "static/css/main.bb848b00.css",
+    "static/js/main.3e7fc69a.js"
   ]
 }
