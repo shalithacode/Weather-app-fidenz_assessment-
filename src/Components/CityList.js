@@ -2,6 +2,18 @@ import { Grid } from "@mui/material";
 import Card from "./Card";
 import React, { useState, useEffect } from "react";
 
+const backgroundColor = [
+  "#2196F3",
+  "#00BCD4",
+  "#4CAF50",
+  "#8BC34A",
+  "#FFEB3B",
+  "#FF9800",
+  "#FF9800",
+  "#F44336",
+  "#673AB7",
+  "#3F51B5",
+];
 function CityList() {
   const [data, setData] = useState([]);
 
@@ -57,7 +69,7 @@ function CityList() {
         {getWeatherData().map((citiData, i) => {
           return (
             <Grid key={i} item xs={12} md={6}>
-              <Card citiData={citiData} />
+              <Card citiData={citiData} backgroundColor={backgroundColor[i]} />
             </Grid>
           );
         })}

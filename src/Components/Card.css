@@ -19,6 +19,8 @@ p {
   box-shadow: rgba(50, 53, 56, 0.8) 0px 8px 24px;
   margin: 20px auto;
   transition: transform 0.35s;
+  margin-bottom: 70px;
+  cursor: pointer;
 }
 .card:hover {
   -ms-transform: scale(1.05); /* IE 9 */
@@ -68,4 +70,16 @@ p {
   margin-right: auto;
   font-size: 32px;
   font-weight: 200;
+}
+@media only screen and (min-width: 320px) and (max-width: 384px) {
+  .card {
+    width: 100%;
+  }
+  .city,
+  .temp {
+    font-size: 24px;
+  }
+  .card-title {
+    padding-bottom: 0;
+  }
 }
