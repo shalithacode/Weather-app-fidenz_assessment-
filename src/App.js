@@ -1,10 +1,10 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
 import CityList from "./Components/CityList";
-import CardDetail from "./Components/cardDetail";
+import CardDetail from "./Components/CardDetail/CardDetail";
 function App() {
   return (
     <>
@@ -15,7 +15,6 @@ function App() {
           <Route path="/cardDetails" element={<CardDetail />} />
         </Routes>
       </BrowserRouter>
-
       <Footer />
     </>
   );

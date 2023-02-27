@@ -1,10 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  /* padding: 0 50px; */
-  /* background: linear-gradient(
-    112.1deg,
-    rgb(32, 38, 57) 11.4%,
-    rgb(63, 76, 119) 70.2%
-  ); */
   font-family: "Poppins", sans-serif;
   background-image: url("../public/Background.png");
   background-size: contain;
@@ -15,9 +14,4 @@ body {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   overflow-x: Hidden;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }

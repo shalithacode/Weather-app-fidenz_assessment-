@@ -1,17 +1,16 @@
-
-#cardView {
+.cardView {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-#cView {
+.cView {
   width: 70%;
   position: relative;
 }
-#btn{
+.back-btn {
   visibility: hidden;
 }
-#goBack{
+.goBack {
   width: 20px;
   cursor: pointer;
   position: absolute;
@@ -19,26 +18,26 @@
   left: 4;
 }
 
-#top {
+.top {
   width: 100%;
   height: 20rem;
 }
-#heading {
+.heading {
   color: white;
   text-align: center;
   padding-top: 10px;
   font-size: 30px;
 }
-#time {
+.time {
   color: white;
   text-align: center;
 }
-#sect1 {
+.sect1 {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-#left {
+.left {
   width: 20%;
   border-right: 2px solid white;
   display: flex;
@@ -46,133 +45,133 @@
   align-items: center;
   padding: 20px 0px;
 }
-#cloud {
+.cloud {
   width: 30%;
 }
-#cloudText {
+.cloudText {
   color: white;
   font-size: 18px;
   padding-top: 20px;
 }
-#right {
+.right {
   width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px 0px;
 }
-#centi {
+.centi {
   color: white;
   padding-bottom: 10px;
 }
 
-#min,
-#max {
+.min,
+.max {
   color: white;
 }
 
-#bcard {
+.bcard {
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 20px 0px;
-  background: #30333d;
+  background: 0.30333d;
 }
-#bleft {
+.bleft {
   width: 33%;
 }
-#bleft p {
+.bleft p {
   text-align: center;
 }
-#bleft p span {
+.bleft p span {
   color: #b0b4bd;
 }
 
-#bcenter {
+.bcenter {
   padding-top: 10px;
   width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#Send {
+.Send {
   width: 13%;
 }
-#bcent {
+.bcent {
   color: #b0b4bd;
   padding-top: 10px;
 }
-#bright {
+.bright {
   width: 33%;
   padding-top: 10px;
 }
 
-#bright p {
+.bright p {
   text-align: center;
 }
-#bright p span {
+.bright p span {
   color: #b0b4bd;
 }
 @media screen and (max-width: 1100px) {
-  #left {
+  .left {
     width: 30%;
   }
-  #cloud {
+  .cloud {
     width: 30%;
   }
-  #right {
+  .right {
     width: 30%;
   }
 }
 
 @media screen and (max-width: 800px) {
-  #cView{
+  .cView {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 650px) {
-  #left {
+  .left {
     width: 50%;
   }
-  #cloud {
+  .cloud {
     width: 20%;
   }
-  #right {
+  .right {
     width: 50%;
   }
 }
 
 @media screen and (max-width: 500px) {
-  #heading{
+  .heading {
     font-size: 20px;
   }
-  #cloudText{
+  .cloudText {
     font-size: 16px;
   }
-  #centi{
+  .centi {
     font-size: 20px;
   }
-  #bleft{
+  .bleft {
     display: flex;
     flex-direction: column;
     width: 30%;
   }
-  #bcenter{
+  .bcenter {
     display: flex;
     flex-direction: column;
     width: 30%;
   }
-  #Send{
+  .Send {
     width: 15%;
   }
-  #bright{
+  .bright {
     display: flex;
     flex-direction: column;
     width: 30%;
   }
 }
-footer{
+footer {
   position: fixed;
   bottom: 0;
 }

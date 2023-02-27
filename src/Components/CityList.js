@@ -1,19 +1,8 @@
 import { Grid } from "@mui/material";
-import Card from "./Card";
+import Card from "./Card/Card";
 import React, { useState, useEffect } from "react";
+import { backgroundColor, API_KEY } from "./util/util";
 
-const backgroundColor = [
-  "#2196F3",
-  "#00BCD4",
-  "#4CAF50",
-  "#8BC34A",
-  "#FFEB3B",
-  "#FF9800",
-  "#FF9800",
-  "#F44336",
-  "#673AB7",
-  "#3F51B5",
-];
 function CityList() {
   const [data, setData] = useState([]);
 
@@ -21,7 +10,6 @@ function CityList() {
     fetch("cities.json")
       .then((response) => response.json())
       .then((jsonData) => {
-        const API_KEY = "895284fb2d2c50a520ea537456963d9c";
         const CITY_CODE = jsonData.List.map((city) => city.CityCode).join(",");
         const weatherAPI = `https://api.openweathermap.org/data/2.5/group?id=${CITY_CODE}&units=metric&appid=${API_KEY}`;
 
