@@ -71,6 +71,7 @@
 }
 
 .bcard {
+  background: #30333d;
   width: 100%;
   display: flex;
   justify-content: space-between;
