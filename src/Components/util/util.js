@@ -63,4 +63,5 @@ export const monthAbbreviations = [
   "Dec",
 ];
 
-export const API_KEY = "895284fb2d2c50a520ea537456963d9c";
+// export const API_KEY = "895284fb2d2c50a520ea537456963d9c";
+export const API_KEY = "29640d77bb7f5bcf2335d6e6d306fb55";
